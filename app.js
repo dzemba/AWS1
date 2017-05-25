@@ -1,7 +1,7 @@
 var helpers = require("./helpers");
 var ACTIONS_FOLDER = "./actions/";
 var ACTIONS_CONFIG_FILE = "actions.json";
-var PORT = 8086;
+var PORT = 8080;
 
 
 var actionsCofig = helpers.readJSONFile(ACTIONS_CONFIG_FILE);
