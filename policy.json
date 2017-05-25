@@ -1,6 +1,6 @@
 {	"expiration" : {"day":1},
 	"conditions": [ 
-	["starts-with", "$key", "dzemba/"],
+	["starts-with", "$key", "dzierzbinski.rafal/"],
 	    				 {"bucket": "dzemba-lab"}, 
 					 {"x-amz-meta-name": ""},
 					 {"x-amz-meta-computer": "http://ec2-34-209-184-165.us-west-2.compute.amazonaws.com:8086/"},
