@@ -1,0 +1,6 @@
+[
+	{"path":"/","action":"createform"},	
+	{"path":"/photoGallery","action":"photoGallery"},
+	{"path":"/resize","action":"resize"},
+	{"path":"/succesPage","action":"succesPage"}
+]

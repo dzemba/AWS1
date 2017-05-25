@@ -1,0 +1,11 @@
+{	"expiration" : {"day":1},
+	"conditions": [ 
+	["starts-with", "$key", "dzemba/"],
+	    				 {"bucket": "dzemba-lab"}, 
+					 {"x-amz-meta-name": ""},
+					 {"x-amz-meta-computer": "http://ec2-34-209-184-165.us-west-2.compute.amazonaws.com:8086/"},
+					 {"acl": "private"},
+    				 {"success_action_redirect": "http://ec2-34-209-184-165.us-west-2.compute.amazonaws.com:8086/succesPage"},  
+    				 ["content-length-range", 0, 1048576]
+    				]   
+}
